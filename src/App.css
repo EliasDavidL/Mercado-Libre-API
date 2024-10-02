@@ -1,0 +1,102 @@
+#root {
+  max-width:max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnbuscar{
+  width: 120px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: rgb(135, 249, 106);
+  text-align: center;
+  margin-top:1cqb;
+
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.productos{
+  display: flex;
+  width: 25%;
+  margin:  4px;
+  background-color: rgb(139, 230, 238);
+   border: #4f07d3 3px solid;
+   border-radius: 10px;
+   
+}
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  width: 120%;
+}
+
+.productoActual{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  
+
+}
+.selector {
+  position:-ms-page;
+  width: 50%;
+  background-color: rgb(202, 244, 255);
+  border: solid 1px #1c4051;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+.compra{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+
+}
+.activo{
+  position:initial;
+  width: 50%;
+  background-color: rgb(82, 246, 118);
+  border: solid 1px #1c4051;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: bisque;
+
+}
+nav{
+  position: -ms-page;
+  width: 100%;
+}
+
+  .buscar{
+    width: 350px;
+    height: 35px;
+    font-size: 25px;
+    
+  }
